@@ -1,0 +1,10 @@
+hr {
+    border-color: rgb(230, 238, 222);
+}
+
+button {
+    background-color: lightblue;
+    color: lightskyblue;
+    font-family: 'Arial';
+    font-size: large;
+}

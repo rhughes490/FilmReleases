@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FilmList from '../components/filmList';
+import  "./filmContainer.css"
 
 class FilmContainer extends Component {
   
@@ -35,9 +36,15 @@ class FilmContainer extends Component {
 
   render() { 
     return ( 
-      <>
+      <div className = "film-container">
+        <h1>Upcoming Film Releases for UK</h1>
+        <hr/>
+        <ul>
         <FilmList films ={this.state.films}/>
-      </>
+        </ul>
+        <hr/>
+        <button><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases </a> </button>
+      </div>
      );
   }
   
